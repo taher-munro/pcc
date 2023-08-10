@@ -39,7 +39,7 @@ html5lib==1.1
 httptools==0.6.0
 humanfriendly==10.0
 idna==3.3
-importlib-resources==6.0.1
+importlib-resources==5.12.0
 ipykernel==6.23.0
 ipython==8.13.2
 jedi==0.18.2

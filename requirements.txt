@@ -1,2 +1,2 @@
 Flask==2.2.5
-langchain==0.0.271
+langchain==0.0.27

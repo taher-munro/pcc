@@ -1,61 +1,50 @@
-import os
-import sys
-
-import openai
-from langchain.chains import ConversationalRetrievalChain, RetrievalQA
-from langchain.chat_models import ChatOpenAI
-from langchain.document_loaders import DirectoryLoader, TextLoader
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.indexes import VectorstoreIndexCreator
-from langchain.indexes.vectorstore import VectorStoreIndexWrapper
-from langchain.llms import OpenAI
-from langchain.vectorstores import Chroma
-from flask import Flask
-
+from flask import Flask, request
+from processing import do_calculation
 
 app = Flask(__name__)
+app.config["DEBUG"] = True
 
-@app.route("/")
-def index():
 
-  os.environ["OPENAI_API_KEY"] = "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"
+@app.route("/", methods=["GET", "POST"])
+def adder_page():
+    errors = ""
+    if request.method == "POST":
+        prompt = request.form["prompt"]
+        if prompt is not None :
+            result = do_calculation(prompt)
+            return '''
+                <html>
+                    <body>
+                       
+                         <form method="post" action=".">
+                    <p><textarea name="prompt" rows="10" cols="50" ></textarea></p>
+                    <p><input type="submit" value="Submit" /></p>
+                </form>
+                 <p>Answer: {result}</p>
+                    </body>
+                </html>
+            '''.format(result=result)
 
-  # Enable to save to disk & reuse the model (for repeated queries on the same data)
-  PERSIST = False
+    return '''
+        <html>
+            <body>
+                {errors}
+                <p>Enter Prompt:</p>
+                <form method="post" action=".">
+                    <p><textarea name="prompt" rows="10" cols="50" ></textarea></p>
+                    <p><input type="submit" value="Submit" /></p>
+                </form>
+            </body>
+        </html>
+    '''.format(errors=errors)
 
-  query = None
-  if len(sys.argv) > 1:
-    query = sys.argv[1]
-
-  if PERSIST and os.path.exists("persist"):
-    print("Reusing index...\n")
-    vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
-    index = VectorStoreIndexWrapper(vectorstore=vectorstore)
-  else:
-    #loader = TextLoader("data/data.txt") # Use this line if you only need data.txt
-    loader = DirectoryLoader("data/")
-    if PERSIST:
-      index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders([loader])
-    else:
-      index = VectorstoreIndexCreator().from_loaders([loader])
-
-  chain = ConversationalRetrievalChain.from_llm(
-    llm=ChatOpenAI(model="gpt-3.5-turbo"),
-    retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),
-  )
-
-  chat_history = []
-  while True:
-    if not query:
-      query = input("Prompt: ")
-    if query in ['quit', 'q', 'exit']:
-      sys.exit()
-    result = chain({"question": query, "chat_history": chat_history})
-    chat_history.append((query, result['answer']))
-    query = None
-    return(result['answer'])
-
-    
+# @app.route("/", methods=["GET", "POST"])
+# def index():
+#    os.environ["OPENAI_API_KEY"] = " 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"
+#    query = input('Prompt:')
+#    loader = DirectoryLoader("data/")
+#    index = VectorstoreIndexCreator().from_loaders([loader])
+#    return index.query(query)
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8082, debug=True)

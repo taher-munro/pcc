@@ -1,18 +1,7 @@
-import os
-import openai
-
-from langchain.document_loaders import DirectoryLoader
-from langchain.indexes import VectorstoreIndexCreator
 from flask import Flask, request
+from processing import do_calculation
 
 app = Flask(__name__)
-
-def do_calculation(prompt):
-    os.environ["OPENAI_API_KEY"] = ""
-    query = prompt
-    loader = DirectoryLoader("data/")
-    index = VectorstoreIndexCreator().from_loaders([loader])
-    return index.query(query)
 
 
 @app.route("/", methods=["GET", "POST"])

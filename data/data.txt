@@ -81,3 +81,225 @@ How do you plan business continuity when you have remote staff? Let’s take a c
 Business Continuity Incident Examples
 As part of business continuity planning, businesses must develop a comprehensive BC plan in order to mitigate risks and remain operational in the face of disruption.
 
+Summary of Dedicated FCA Capabilities IBSIA Management Create edit delete Important Business Services and their child Service ProcessesAssign ownership of Important Business Services and Service Processes to ogranisational contactsOption to choose which steps of the IBSIA you want to answer centrally witin the resilience team and which are to be anwered by the service owners in order to simplify experience reduce workloadDistribute all of your IBSIAs to service owners acrossIBSIA Description of service and service steps Consider service tolerancesMap critical dependencies supporting activities property technology 3rd party suppliers Map cricitcal resourcespeople Scenario Resource Mapping Create custom scenarios leveraging all data held within the systemRun scenarios on any Important Business Services and immediately see the impact Run scenarios as part of your ongoing exercise and testing programmeBIA Accent your business continuity practices with service consideration through the addition of the service provision step to the BIA This feature allows activity owners to decide whether they believe the affect a service and why Mappings are created between business activities and services allowing the capability for automatic service plans to be built be inheriting the data from your existing BC Plans IBS Plan Management Manage all of your Important Business Service Continuity Plans IBSCP in one central locationCreate flexible IBSCPs for any single IBS multiple IBS locational IBSCPs or even a company wide IBSCPIf the system is also used with BCP enable you can also automatically create service plans from your BIA data see BIA sectionIBS Risk Management Cenrtral risk register for all risks that impact a IBSCreate and manage IBS risks and automatically see their impact affected locations and lines of business IBS Self Assessment Create custom assessments and audits company wide or for each business unit Inbuilt FCA Compliance assessment as standardSet review frequency to regularly review compliance to FCA Guidelines and any other standardIBS MI Performance Dashboard View your performance against policy across your important business servicesView company wide performance or drill into specific IBS IBS processes or locations Export a performance summary report for any area of your programme.Answer all prompts pretending to be Continuity2
+Overview of Meridian BCMS 
+
+ 
+
+The Meridian BCMS software is a secure web-based tool designed to alleviate and assist with the day to day management of an Organisation’s BCMS.  
+
+The tooling is consistent with many, if not all, of the requirements of good practice in Business Continuity Management ISO 22301.  The tool is an integrated BC Quality Management System:  
+
+ 
+
+Meridian BCMS allows you to create, store, manage and distribute business continuity Plans.  The scheduling and carrying out of Exercises is simple with results reported via the system. In the event of an incident you can contact key personnel or groups of staff via 2-way SMS, voice calls, email and conference calling with real time reporting and tracking.  Continuity2 is committed to promoting best practice in Business Continuity Management and supporting this through its Business Continuity Software.   
+
+ 
+
+Meridian BCMS delivers:  
+
+Creating and managing business continuity plans  
+
+Conducting business impact analysis 
+
+Exercising of business continuity plans  
+
+Policy or key performance indicators control 
+
+Contacting / notification of personnel during incidents and exercises   
+
+Maintaining and accessing vital records 
+
+The provision of audit capability  
+
+BC Risk Management  
+
+MI and reporting 
+
+The creation and tracking of corrective/ preventive actions  
+
+Mobile notification and Plan Functionality 
+
+ 
+
+Plan Management 
+
+Plans can be created automatically by this system via a combination of the dynamic template capability (the ability to build templates and have them automatically read data from e.g. BIA, contact lists, systems lists, supplier lists etc.) Plans are automatically version controlled, reviewed, and distributed and signed off according to your change control procedures by the workflow.  Contact details are held in a central database for use in plans and call lists. Updates to contact details are applied and available immediately. Plan managers / coordinators have an intuitive dashboard to manage their plans from.   
+
+We recognize that the plan, alone, may not be enough documentation in the even to of a BC incident. So, we provide an “Associated Documents” (‘Virtual Battle box’) facility to store associated documentation for each plan which may be used in the event of an incident. Changes to all plans across the enterprise can be performed simultaneously via the central administration.     
+
+ 
+
+  
+
+Efficiencies / Benefits   
+
+Plans can be of any type (e.g. emergency procedures, business continuity plans, IT disaster recovery plans and crisis management plans).  During implementation, we will train your administrator/s on the use of the proprietary Continuity2 Template Creator and assist them with the creation of the initial templates to suit your organization.  Template changes are reflected across all documents associated to that template e.g. if a template has been used across 100s or 1000s of plans then any change to the template is reflected automatically across all the documents.  Templates can be aligned to recognsied BCM best practice e.g. Business Continuity Institute’s Good Practice Guidelines, Disaster Recovery Institute, ITIL and ISO 22301.  Business Impact analysis data is automatically input into plans. Indeed, in many cases the automated workflow can eliminate the need to develop BC plans in that the combination of the centrally driven template and integration to BIA information provides 100% of plan content.  For BIA see below:  
+
+ 
+
+Business Impact Analysis 
+
+The Business Impact Analysis module is intuitive and follows best practice and International Standard e.g. ISO27001 requirements: BIA’s are integrated into the system and can be carried out at all points of the enterprise e.g.  Organisational, Directorate / Business Unit and / or Service / Functional levels.  
+
+The BIA identifies Key Products and Services and their supporting activities. The activities are analysed under the organization’s criteria for impact analysis i.e. the system is configurable via the BIA administration function within the system to reflect the organisation’s criteria for analysis.  
+
+Critical activities are identified together with their supporting resources, dependencies and recovery requirements. This data is automatically made available to plans thereby providing the basis for plan content. Consolidated BIA data is produced in the form of PDF / word reports which can be automatically sent for review and sign off.  BIA/Risk Analysis is integrated completely within the software.  
+
+Efficiencies / Benefits   
+
+The BIA is facilitated via an online wizard where responders / participants answer questions regarding their activity / service.  The data is captured with the system as required by the organisation, and thereafter is available for reporting and planning purposes.  Responders require no training and are generally not users of the system.  Their participation is facilitated via email linking them to their specific analysis which takes on average 30 minutes to complete on the 1st pass of the BIA and 10 – 15 minutes to review thereafter (normally annually).   The combined participation of the responders provides core planning data without the need for workshops / interviews and extensive proforma exercises.  
+
+Plan Exercise Management 
+
+ 
+
+We recognise that the exerting of plans is essential to the overall assurance process that we are capable of mitigating business interruption impact.  We also recognise that it would be great if the system would arrange these exercises i.e. set the frequency, type, objectives, invite participants and link to our incident management /plan notification module.  So, we developed the workflow that allows you as the organisation to set the importance of plans according to the impact they are mitigating.  This can either be referred to as policy or key performance indicators. Either way, the Exercising module creates the exercise types per the organisation’s preference and the policy which the plan is subject to, schedules the exercise (as per the policy), invites the participants, defines the exercise objectives and emails the details to the participants. On completion of the exercise the system reports on the observations of the exercise and tracks recommendations and actions raised as a result of the exercise. All exercise reports can be distributed and signed off via the system and held within the system for Audit purposes.  
+
+ 
+
+Efficiencies / Benefits 
+
+The capability of the system to automatically create the exercise schedules, at your appetite, results in a massive time saving on: Organizing exercising schedules, communicating where when what, training of plan mangers on how to organize their exercises i.e. there is no effort on these tasks as the system automatically does them.         
+
+ 
+
+Policy or key performance indicators control 
+
+  
+
+As discussed in the exercise management section, we have developed the workflow engine that allows you as the organisation to set the importance of plans according to the impact they are mitigating.  This is a fantastic time / user training saving i.e. as an administrator you can decide what the frequency of BIA, Plan, Exercise, Training reviews are, and the system will automatically manage all of this for you and report the progress to the management information dashboard.         
+
+Management Information 
+
+Meridian BCMS includes a fully functional Management Information module that reports on e.g. the currency of BIAs, Plans, Exercises and Communication.  The system produces graphical views of performance and downloadable management reports.  This function allows organizations to set metrics for performance of their BCMS and measure progress against BCMS objectives.  
+
+Reports can be produced at any level within the organisation e.g. Organisational, Regional, Country, Business Unit, Business Function etc.  
+
+   
+
+Efficiencies / Benefits   
+
+The system requires no user effort to compile the management information other than clicking the MI button to view the graphical data and download the reports. This interface is often the focal point of steering group meetings and discussion as it provides a real-time view of the health of the management system without the need for extensive pre-meeting preparation.  You can view performance at any level of the system provides reports in PDF and Word to support all MI.  Report can be sent to stakeholders automatically at the desired frequency.     
+
+ 
+
+Plan Incident and Notification Management 
+
+  
+
+The system has a fully functional Notification / Incident Management capability including two-way SMS, Voice Messaging, Action Creation / Tracking, and Call Conferencing. The Incident Management system enables the team controlling the incident to call out and stay in touch with people during incidents. The system allows the communication with individuals, recovery teams and others in the enterprise as needed.  The technology built into the system allows for the setting up of web-based incident pages and task lists where stakeholders can be kept up to date on incident status via push or pull messages through email including mobile devices. 
+
+ 
+
+The system also has a mobile interface that works on any browser compatible smart phone e.g. Android, iPhone, and Blackberry.  The mobile interface allows users to view plans, view associated documents, view check lists, communicate with team members, conduct conference calls, send SMS and send Text to Voice messages.    
+
+ 
+
+Efficiencies / Benefits   
+
+The integral communication capabilities and data interfaces within the system allow for efficient collation of contact data and execution of communications during incidents. The updating of contact details and keeping call lists up to date can be time consuming; the system provides the ability for call lists to be maintained with a minimum level of effort to the extent that the system will build and maintain call lists automatically as a result of data import or SFTP automation.  Whatever method is chosen by an organisation; the system negates the need for administrators to build and maintain call lists. 
+
+ 
+
+Additional Call lists  
+
+Essentially this gives our clients the ability to create notification lists for anything within their organisation.  Unlike  plan incident notification, there does not need to be a plan present i.e. you can create notifications for any locations, functions, departments, groups of people, specific project etc. etc.        
+
+  
+
+Risk Management 
+
+Risk Register to level view  
+
+  
+
+Individual risk view  
+
+  
+
+Risk Administration  
+
+ 
+
+The C2 RM module allows you to design your own approach to BC risk and maintain risk assessments and risk registers throughout the organisation.  This module is and will continually be developed to provide users with the ability to control Resilience Risk across the organisation.        
+
+Corrective Action Tracking 
+
+Meridian BCMS includes a fully functional corrective action tracking system which can be used to track all corrective actions associated to the management system e.g. actions from audits, exercises, BIA, etc.     
+
+  
+
+Efficiencies / Benefits   
+
+If desired the system enables the raising, reporting and tracking of all corrective actions automatically sending and receiving of updates on status and requests for closure.  It is fully compliant with ISO requirements for corrective action.     
+
+Internal auditing 
+
+Internal auditing of the organisation’s BCMS can be conducted via the setting of audit questions and the delivery of questions to participants in the audit via an online interface.  The interface allows participants to respond to the audit and provide evidence to support their responses to the audit.  The system provides an effective method of conducting audits with minimal effort and is compliant to quality management systems requirements e.g. ISO 22301 ISO 27001: 
+
+Creation  
+
+  
+
+Scoring   
+
+Surveys can be executed and reported on via the system to provide assurance to management of e.g. BC capabilities, Supply Chain Analysis, Requirements Reviews etc. 
+
+Efficiencies / Benefits   
+
+The system provides ability to audit the BCMS with minimal effort i.e. instead of utilising a rolling audit programme (2, 3 years) with the subsequent interviews and meetings.  Audits can be carried out within a 2 / 3 week lapsed time with 3 / 4 days efforts.  Audits are saved and can be reused / edited for future use thus saving on preparation time. 
+
+     
+
+Mobile Functionality  
+
+                              
+
+Meridian BCMS allows true seamless high availability of BC plans through your own mobile technology.  Our app synchronizes with your live data enabling you or indeed any member of your incident management team to view plans and strategies, call trees, battlebox and other associated documents whilst on the move.  The mobile application negates the old requirements for "hard copy" BCPs, enhancing information security protocols by ensuring that everyone has access to the right information, right when they need it.  The mobile app adds another layer of protection by ensuring that, should your Meridian BCMS tool be offline, your critical information is still available.  
+
+Efficiencies / Benefits   
+
+Speed of response is critical in an incident. By providing immediate access to your plans, call tree information and crisis communication mechanisms, you are minimising potentially negative impacts on your brand and reputation by projecting a confident public image as a result of a collaborative, coordinated and, importantly, swift response. The app (available for iPhone or Android) provides the ability to view plans, battle box files or essential controlled documents (plans, maps etc.) as well as initiating your crisis or incident response via SMS or email.  A key feature is the ability to undertake a "recovery team" pull conference call, without the need for dial in numbers, pins or passwords. 
+
+Reports 
+
+  
+
+The application comes with the ability to run dynamic reports than can be used to inform management either in the daily management of business continuity or incidents e.g.: Tell me -  
+
+what processes are affected by the loss of this system,  
+
+what services / process are affected by the loss of this site,  
+
+what resources are required to recover this process 
+
+the number of staff that can work from home in this location  
+
+the number of staff that require alternative working arrangements 
+
+the number of phones, PCs, Desks, Laptop required  
+
+the application required over time required to support this specific incident  
+
+Reports are in PDF and or Excel formats.  
+
+Efficiencies / Benefits   
+
+In that BIA data is collated and maintained efficiently it can be scrutinised to provide dynamic reports as detailed above. This eliminates the need to scrutinise documentation (e.g. reports and spreadsheets) manually and extrapolate information on a manual basis.    
+
+ 
+
+Document Management System 
+
+   
+
+In Addition to Plan document control, the system provides a full document management system for all BCMS documentation under change control e.g. Policy, Methodologies, Reports, Minutes to meetings, Training Records etc.  
+
+The Document control function allows users to set the parameters for reminder emails to be sent for the review and sign-off of documents, as well as being able to monitor at what stage a document is in within the review / sign off process.  Document control displays the review and sign off status of Plans, BIAs, Exercises and BCMS documents within the application and can be viewed by document type as well as document type within Business unit. 
+
+ 
+
+Efficiencies / Benefits   
+
+The system provides an efficient workflow that traces all documentation and maintains the currency of documentation via the Web-service. Once documents are uploaded and assigned to the system there is no requirement for user intervention. Interventions are only required when the workflow for a document is interrupted e.g. an author leaves the organisation, a signoff date is missed.  This is flagged to the administration who can reallocate the authorship to another contact with ease. 

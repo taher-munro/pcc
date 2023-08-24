@@ -10,7 +10,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 chat_history = []
 

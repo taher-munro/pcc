@@ -6,8 +6,9 @@
 # https://docs.docker.com/engine/reference/builder/
 
 # Use a specific Python version and the slim version of the base image
-ARG PYTHON_VERSION=3.10.10
+ARG PYTHON_VERSION=3.11.4
 FROM python:${PYTHON_VERSION}-slim as base
+RUN pip install --upgrade pip
 
 # Prevent Python from writing .pyc files
 ENV PYTHONDONTWRITEBYTECODE=1

@@ -27,7 +27,7 @@ def adder_page():
         prompt = request.form["prompt"]
         if prompt is not None :
             result = do_calculation(prompt)
-            return render_template('demo.html',result=result)
+            return render_template('demo.html')
 
     return render_template('demo.html')
 

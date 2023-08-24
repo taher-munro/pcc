@@ -16,8 +16,6 @@ chat_history = []
 
 def do_calculation(prompt):
     query = prompt
-    loader = DirectoryLoader("data/")
-    index = VectorstoreIndexCreator().from_loaders([loader])
     return 'hello'
 
 @app.route("/", methods=["GET", "POST"])

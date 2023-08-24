@@ -6,7 +6,7 @@
 # https://docs.docker.com/engine/reference/builder/
 
 # Use a specific Python version and the slim version of the base image
-ARG PYTHON_VERSION=3.11.4
+ARG PYTHON_VERSION=3.10.10
 FROM python:${PYTHON_VERSION}-slim as base
 
 # Prevent Python from writing .pyc files

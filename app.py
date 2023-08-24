@@ -16,7 +16,14 @@ chat_history = []
 
 def do_calculation(prompt):
     query = prompt
-    return 'hello'
+    loader = DirectoryLoader("data/")
+    index = VectorstoreIndexCreator().from_loaders([loader])
+    chain = ConversationalRetrievalChain.from_llm(
+    llm=ChatOpenAI(model="gpt-3.5-turbo"),
+    retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),
+    )
+    result = chain({"question": query, "chat_history": chat_history})
+    return result['answer']
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
@@ -25,7 +32,7 @@ def adder_page():
         prompt = request.form["prompt"]
         if prompt is not None :
             result = do_calculation(prompt)
-            return render_template('demo.html')
+            return render_template('demo.html',result=result)
 
     return render_template('demo.html')
 

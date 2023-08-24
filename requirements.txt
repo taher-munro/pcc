@@ -5,3 +5,4 @@ unstructured==0.10.5
 chromadb==0.4.6
 tiktoken==0.4.0
 gunicorn==21.2.0
+pysqlite3-binary==0.5.1

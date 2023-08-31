@@ -20,7 +20,7 @@ PERSIST = True
 
 def do_calculation(prompt):
     query = prompt
-    if PERSIST and os.path.exists("persist"):
+    if PERSIST and os.path.exists("./var/data/persist"):
         print("Reusing index...\n")
         vectorstore = Chroma(persist_directory="./var/data/persist", embedding_function=OpenAIEmbeddings())
         index = VectorStoreIndexWrapper(vectorstore=vectorstore)

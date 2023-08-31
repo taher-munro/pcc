@@ -260,13 +260,14 @@
                 type: 'POST',
                 url: '/',
                 data: $('#form1').serialize(),
-                error: function(xhr, status, error) {
-                    var err = eval("(" + xhr.responseText + ")");
-                    $('#response1').html(err.Message);
-                },
                 success: function(response) {
                     response1 = response.replace("\n", '<br>')
                     $('#response1').html(response1);
+
+                },
+                fail: function(xhr, textStatus, errorThrown) {
+
+                    $('#response1').html(xhr.responseText);
 
                 }
             });

@@ -6,31 +6,18 @@ from langchain.indexes import VectorstoreIndexCreator
 from flask import Flask, request, render_template
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.indexes.vectorstore import VectorStoreIndexWrapper
-import requests
+
 
 app = Flask(__name__, template_folder='templates')
 
 chat_history = []
-PERSIST = True
 
 
 
 def do_calculation(prompt):
     query = prompt
-    if PERSIST and os.path.exists("./var/data/persist"):
-        print("Reusing index...\n")
-        vectorstore = Chroma(persist_directory="./var/data/persist", embedding_function=OpenAIEmbeddings())
-        index = VectorStoreIndexWrapper(vectorstore=vectorstore)
-        print(index)
-    else:
-        loader = DirectoryLoader("data/")
-        if PERSIST:
-            index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"./var/data/persist"}).from_loaders([loader])
-        else:
-            index = VectorstoreIndexCreator().from_loaders([loader])
+    loader = DirectoryLoader("data/")
+    index = VectorstoreIndexCreator().from_loaders([loader])
     chain = ConversationalRetrievalChain.from_llm(
     llm=ChatOpenAI(model="gpt-3.5-turbo",  temperature=0),
     retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),

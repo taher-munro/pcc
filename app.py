@@ -4,7 +4,7 @@ import openai
 from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
 from flask import Flask, request, render_template
-from langchain.chains import ConversationalRetrievalChain, RetrievalQA
+from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
@@ -24,6 +24,7 @@ def do_calculation(prompt):
         print("Reusing index...\n")
         vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
         index = VectorStoreIndexWrapper(vectorstore=vectorstore)
+        print(index)
     else:
         loader = DirectoryLoader("data/")
         if PERSIST:

@@ -23,7 +23,8 @@ chat_history = []
 
 def do_calculation(prompt):
     query = prompt
-    loader = DirectoryLoader("data/")
+    #loader = DirectoryLoader("data/")
+    loader = TextLoader("data/data.txt")
     index = VectorstoreIndexCreator().from_loaders([loader])
     chain = ConversationalRetrievalChain.from_llm(
     llm=ChatOpenAI(model="gpt-3.5-turbo",  temperature=0),

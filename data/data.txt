@@ -1193,3 +1193,621 @@ Pull your SIA and BIA data to create smart IT DR plans Automate the review cycle
 Summary of Dedicated FCA Capabilities IBSIA Management Create edit delete Important Business Services and their child Service ProcessesAssign ownership of Important Business Services and Service Processes to ogranisational contactsOption to choose which steps of the IBSIA you want to answer centrally witin the resilience team and which are to be anwered by the service owners in order to simplify experience reduce workloadDistribute all of your IBSIAs to service owners acrossIBSIA Description of service and service steps Consider service tolerancesMap critical dependencies supporting activities property technology 3rd party suppliers Map cricitcal resourcespeople Scenario Resource Mapping Create custom scenarios leveraging all data held within the systemRun scenarios on any Important Business Services and immediately see the impact Run scenarios as part of your ongoing exercise and testing programmeBIA Accent your business continuity practices with service consideration through the addition of the service provision step to the BIA This feature allows activity owners to decide whether they believe the affect a service and why Mappings are created between business activities and services allowing the capability for automatic service plans to be built be inheriting the data from your existing BC Plans IBS Plan Management Manage all of your Important Business Service Continuity Plans IBSCP in one central locationCreate flexible IBSCPs for any single IBS multiple IBS locational IBSCPs or even a company wide IBSCPIf the system is also used with BCP enable you can also automatically create service plans from your BIA data see BIA sectionIBS Risk Management Cenrtral risk register for all risks that impact a IBSCreate and manage IBS risks and automatically see their impact affected locations and lines of business IBS Self Assessment Create custom assessments and audits company wide or for each business unit Inbuilt FCA Compliance assessment as standardSet review frequency to regularly review compliance to FCA Guidelines and any other standardIBS MI Performance Dashboard View your performance against policy across your important business servicesView company wide performance or drill into specific IBS IBS processes or locations Export a performance summary report for any area of your programme.Answer all prompts pretending to be Continuity2
 
 FCA Compliance FCA Compliance Assigning ownership of Important Business Service (IBS) and IBS Processes Running IBS Impact Analysis (IBSIA) IBSIA - Description of service IBSIA - Capture service tolerances IBSIA - Map critical service dependencies (property / technology / 3rd party suppliers) IBSIA - Map critical resources / people Create and run plausible scenarios Service Consideration During BIA 3 4 5 6 7 8 9 10 Creating IBS Continuity Plans 11 Creating IBS Risks 12 Assessing Your Organisation Against The FCA Guidelines For Operational Resilience 13 Summary of Dedicated FCA Capabilities 15 Viewing your IBS Continuity Performance 14 Contents 2 FCA Compliance Assigning ownership of Important Business Service (IBS) and IBS Processes Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com IBSIA Management IBSIA Management allows the System Administrator to create and management Important Business Services (IBS) from a single central interface. From this screen you can create, edit and delete IBS(s) as well as their child service processes. IBSIA Management also acts as your tool to assign ownership of services and the distribution of Important Business Service Impact Analysis (IBSIA). The analysis is connected to each service process and all data is aggregated to it’s parent IBS. You can also take advantage of our centralisation features within the IBSIA. This allows you to answer steps of the IBSIA centrally (by the system administator) e.g the service description and only assign out specific steps to your service owners to answer individually. 3 FCA Compliance Running IBS Impact Analysis (IBSIA) 4 IBS Impact Analysis (IBSIA) The IBS Impact anaylsis can either be run directly from IBSIA Management by the logged in System Administrator, distributed via email to be conducted by the assigned service owner, or conducted by a service plan owner from within the IBS Plan Management module (should you decide to create IBS Continuity Plans). When distributed the IBS Impact Analysis is accessed by the service owner via an email link. The service owner will then be presented with a dedicated landing page full of helpful information that will guide them through the analysis itself. As a System Administrator you will be able to control the content which is presented to the service owner on this landing page via the IBSIA Adminstration. IBSIA Administration also allows you to completely configure the IBSIA to your organisations requirements for analysis. When the service owner proceeds to the IBSIA they will reach the IBSIA dashboard where they can see the analysis is broken down into 5 easy digestible steps. The service owner will also be able to clearly see their progress against each step from this area. Each analysis step itself is broken into smaller sections (if necessary) and each section has it’s owner dedicated help to guide the owner throughout the analysis onto completion / final submission. Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com FCA Compliance IBS Impact Analysis (IBSIA) 5 Description of Service The first step of the IBSIA allows the Service Owner to provide a detailed description of the service, As well as this the owner can also provide information of any steps that may be involved within the service itself. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance IBS Impact Analysis (IBSIA) 6 Capture Tolerances The next two steps of the IBSIA allow the service owners to assess their services impact againsts impact categories decided by the organisation. For the purpose of the demo we have outlined these as ‘Consumer Harm’, ‘Impact on the Organisation’, and ‘Impact on the UK Financial System’ as per the FCA guidelines. However is you wish to assess to a more detailed level of categorisation you can do so via the IBSIA Administration. The impact timeline, levels, descriptions and tolerances are also completely configurable. Guidance documentation can also be uploaded into the step as well as the standard inbuilt help feature. Qualitative explanations are collected from every entry to the matrix. The earliest point in the timeline in which the criticality tolerance is breached is then passed onto the next step and set as the ‘Service Tolerance’. The ‘Service Tolerance’ provides the context for the ‘Service Continuity Objective’ by detailing the maximum time that the service can be disrupted before it becomes unacceptable. The service owner is then offered the chance to provide detail, if applicable, on a minimum service continuity objective (MSCO) that the service could return to which would allow the service to function past its tolerance. A recovery time objective is also requested and how long the service could operate at the MSCO before tolerance would be breached. Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com FCA Compliance IBS Impact Analysis (IBSIA) 7 Map critical service resources (dependencies) (property / people / systems / 3rd party suppliers / records & data) Within the critical dependencies step of the IBSIA the service owners have the ability to map all dependencies which are critical for their service to run at their minimum service continuity objective (MSCO). These include supporting business activities/processes, services, people, property, technology, and 3rd party suppliers. Upon entering a new dependency the service owner is reminded of their MSCO and to confirm they believe that dependency is critical within that context. Owners then have the opportunity to declare the nature of dependency and any workarounds that may be available as well as that workaround duration of effectiveness. Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com FCA Compliance IBS Impact Analysis (IBSIA) 8 Map additional resources / resources over time The final step of the IBSIA allows the service owner to map critical resources / people they require to function at their MSCO. These resources can be mapped over time or in total. Again workarounds can be added in the event these resources are unavailable. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Create and Run Plausible Scenarios 9 Scenario Administration & Resource Mapping The Scenario Administration & Resource Mapping module allows System Administrators (and any other user type you wish to make this module available to) access to every data point held within the system to create custom scenarios and report outputs. So whether you wish to know the impact of a loss of system(s), supplier(s), location(s), resource(s), or even combinations of any of the above, then the system can provide this to you at the click of a button. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Service Consideration During BIA 10 BIA - Service Provision As well as the ability to meet the FCA’s guidelines through a direct analysis of your Important Business Services the C2 system also gives the ability to build upon your Business Impact Analysis and traditiional Business Continuity Planning. Through the addition of the Service Provision step in the BIA, an intuitive interface that lets activity owners consider which IBS they effect, you can map supporting activities to your IBS. This then allows activity owners to consider you IBS minimum service continuity objective and ensure they are available within any dependent IBS recovery time objective - thus creating a synergy between your business continuity and service continuity planning. Not only that but it means your IBS can now automatically inherit the critical dependencies of its supporting activities drastically cutting down the time required for service owners to complete their Important Business Service Impact Analysis. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Creating IBS Continuity Plans 11 IBS Plan Management Within the FCA Compliance module you can easily create dedicated IBS Continuity Plans. These plans are completely flexible allowing you to create service plans for one or many IBS, IBS by groups, IBS by location or even a complete company wide IBSCP should you require this. As well as manually creating IBSCPs the system also has the capability to automatically build service plans covering all supporting business activities (if you also conduct BIAs within the system). With these smart plans you simply select which IBS(s) you wish to cover and the system will automatically build a plan containing every part of your organisation that IBS(s) relies on to function at it’s minimum service continuity objective. These plans will be synced to your traditional BCPs meaning they will be updated automatically as and when you review your business continuity plans. This means you will have accurate up to date IBSCPs at absolutely no extra cost to your business continuity programme. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Creating IBS RIsks 12 IBS Risk Management The FCA Compliance module also comes with a dedicated risk register for all risks raised within the system related to your important business services. You can create service related risks direct from this area, or throughout the entire application including your IBS Plans, IBSIA, BIA, IBS Self Assessment, Scenario & Resource Mapping, Exercise & Testing and more. All IBS related risks also show on the global risk register and against any other applicable registers your have created (business unit registers etc). Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here BCMS | Natwest Secure https://natwest.continuity2.com FCA Compliance Assessing Your Organisation Against The FCA Guidelines For Operational Resilience 13 IBS Self Assessment The IBS Self Assessment module allows you to create custom assessments / audits and distribute them to key business stakeholders or external organisations. Review frequencies can be set to regularly ensure you are complying to applicable standards/regulations and you can raise risks direct from the assessments as part of your continious improvement programme. The module also comes with an in-built FCA Operational Resilience assessment as standard. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Viewing your IBS Continuity Performance 14 IBS MI Performance Dashboard With a vast array of elements to keep track of across your service continuity programme it is critical you have a central location that can provide a clear view of your current performance. The IBS MI Performance Dashboard provides you with a overarching view of your programme. See easily how your IBSIAs, IBS Plans, IBS Exercises, and IBS Self Assessments are performing against their review schedules. View all your risks and corrective actions and easily see if they are on track with their target resolution dates. Drill into specific important buisness services to see their individual performance, or view your data geographically. Once you have found the information you are looking for then pull off a performance summary report at the click of a button. BCMS | Natwest Secure https://natwest.continuity2.com Your Screen Here FCA Compliance Summary of Dedicated FCA Capabilities IBSIA Management Create, edit, delete Important Business Services and their child Service Processes Assign ownership of Important Business Services and Service Processes to ogranisational contacts Option to choose which steps of the IBSIA you want to answer centrally witin the resilience team and which are to be anwered by the service owners (in order to simplify experience / reduce workload). Distribute all of your IBSIAs to service owners across IBSIA Description of service and service steps Consider service tolerances Map critical dependencies (supporting activities, property, technology, 3rd party suppliers) Map cricitcal resources/people Scenario & Resource Mapping Create custom scenarios leveraging all data held within the system Run scenarios on any Important Business Service(s) and immediately see the impact Run scenarios as part of your ongoing exercise and testing programme BIA Accent your business continuity practices with service consideration through the addition of the service provision step to the BIA. This feature allows activity owners to decide whether they believe the affect a service and why. Mappings are created between business activities and services allowing the capability for automatic service plans to be built be inheriting the data from your existing BC Plans, IBS Plan Management Manage all of your Important Business Service Continuity Plans (IBSCP) in one central location Create flexible IBSCPs for any single IBS, multiple IBS, locational IBSCPs, or even a company wide IBSCP. If the system is also used with BCP enable you can also automatically create service plans from your BIA data (see BIA section). IBS Risk Management Cenrtral risk register for all risks that impact a IBS Create and manage IBS risks and automatically see their impact (affected locations, and lines of business) IBS Self Assessment Create custom assessments and audits (company wide or for each business unit) 15 In-built FCA Compliance assessment as standard Set review frequency to regularly review compliance to FCA Guidelines and any other standard IBS MI Performance Dashboard View your performance against policy across your important business services View company wide performance or drill into specific IBS, IBS processes, or locations Export a performance summary report for any area of your programme
+
+
+EVERYTHING YOU NEED TO KNOW ABOUT C2
+Our Story, Our Team
+
+Continuity 2 Founded 2002 First company to integrate notification tool / services to proprietary platform2004First company to implement a full business continuity management approach (i.e Plan, Do, Check, Act)2007First company to develop BCMS mobile app2008Co-opted to ISO 22301 Panel2011First company to develop native mobile applications for android and IOS2013Launched new product MeridianBCMS - the worlds leading BCMS Software2018
+Our Story
+C2 was founded nearly 2 decades ago by our CEO Richard McGlave who at the time was a high level business continuity practitioner within Scottish Power. During Richard's career both he and his fellow industry colleagues had struggled to find any sort of workable solution to the real world processes required for the efficient and effective management of a comprehensive Business Continuity System. There simply was not a single software product on the market that fully fulfilled the needs of working BC professionals. Frustrated by the lacklustre solutions available Richard turned his dismay to inspiration with the goal of revolutionising the practice of business continuity. With a wife and two young children at home Richard took the massive risk of quitting his career and went out on his own. In 2002 working from a 4x5 office in Edinburgh with nothing more than a desk, chair, and a server in a cupboard Richard started Continuity2. Since then the company has grown exponentially and now services some of the worlds largest organisations making their practice of Business Continuity easier each day.
+
+At C2 today we strive to provide intuitive and innovative solutions for the business resilience market and reshape the industry as we know it today. So it's safe to say our values have never changed in 16 years and no matter our successes we will never stop striving to be better. It is our promise to you, that an investment in C2 is an investment in always being at the cutting edge of business resilience technologies and best practice.
+
+ 
+C2 AT BCI WORLD 2019
+TAKE A LOOK AT OUR TEAM IN ACTION AT BCI WORLD 2019
+
+OF THE BEST BUSINESS CONTINUITY SOFTWARE ON THE MARKET
+399,765
+Slack messages sent
+
+26,301
+Coffee's consumed
+
+1,218,285
+Lines of code written
+
+
+
+THE COMPLETE BUSINESS CONTINUITY & OPERATIONAL RESILIENCE PLATFORM
+MOBILE & TABLET ENABLED
+iOS, Android, and Windows Mobile* Apps
+
+FIND OUT MORE
+BUSINESS IMPACT ANALYSIS
+Configurable to your BIA approach
+
+FIND OUT MORE
+PLAN MANAGEMENT
+Create intelligent enterprise controlled plans
+
+FIND OUT MORE
+MANAGEMENT INFORMATION & REPORTING
+See a detailed view of your organisations health through all levels of your infrastructure
+
+FIND OUT MORE
+EXERCISING & TESTING
+Create exercises and test your resilience
+
+FIND OUT MORE
+AUDITING
+& COMPLIANCE
+ISO 22301 standards
+
+FIND OUT MORE
+INCIDENT MANAGEMENT
+Innovative communication and emergency notification tools
+
+FIND OUT MORE
+CORRECTIVE ACTION
+Create and track your corrective actions
+
+FIND OUT MORE
+LEARNING MANAGEMENT
+Upload, distribute, track, and score your internal training
+
+FIND OUT MORE
+C2 Meridian: The Future of Operational Resilience
+C2 Meridian is a web based tool (SaaS) designed to automate and assist the day to day management of an organisation's Operational Resilience & Business Continuity Management System (BCMS).
+
+Our industry agnostic solution is completely configurable to meet your organisation's unique requirements. The system was created to ensure resilience professionals across the world are able to do their jobs better, faster, and easier.
+
+One of the things I like about this application is the simplistic dashboard. The front end appears from sign-on and this can be tailored to suit user needs, so they only see what they need to see. Another key benefit is the provision of additional functionality that supports the Plans during validation and invocation. The benefit of having one system that can be configured to suit organisational complexity, provide Plan governance, has the ability to communicate to all Plan members, additional internal and external stakeholders using SMS, e-mail and forced voice call is a real plus.
+
+Harry T
+Global Head Business Continuity
+World Leading Marketing & Advertising Organisation
+ 
+GOT A QUESTION?
+SEND US YOUR QUERY AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE
+ 
+BOOK A DEMO
+OF THE BEST BUSINESS CONTINUITY SOFTWARE ON THE MARKET
+Need to increase your engagement?
+We make organisation-wide engagement in your BC programme simple. Zero training, zero fuss.
+
+Too many manual processes?
+Our software will automate your BC programme increasing your efficiency by up to 80% so you can spend time on improvements rather than maintenance.
+
+Not getting clean high quality data?
+We drive best practice through your BC programme, prevent poor quality data, and leave you with the clean actionable BC plans that will deliver in the face of disruption.
+
+Need more than a software provider?
+Not only do we deliver expert technical assistance in rapid response times but our experienced business continuity analysts will help you improve your BC programme and get the most out of our software.
+
+Meridian Features
+While we can't show you the iceberg of intelligent workflow and best practice which drives our software - or the impact it makes - we can share with you some shiny bits that stick above the surface. C2's Meridian allows you to create, store, manage and distribute business continuity plans through smart automation and data collection. On top of this we have created a host of business resilience tools that allow you to view and report on the data that matters most to your organisation, track your actions, and communicate on any incidents that may occur through our innovative incident management. For a full overview of our key features you can view them in more detail below:
+
+Management Information & Reporting
+
+Plan Management
+
+Business Impact Analysis
+
+Risk Management
+
+Incident Management / Notification
+
+Exercise & Testing
+
+Dynamic Reporting
+
+Corrective Action
+
+Audit & Compliance
+
+Document Management
+
+Mobile & Tablet Enabled
+
+Learning Management
+
+Central Management
+
+Policy Management
+
+Information for Financial Organisations
+BOE / FCA / PRA - OPERATIONAL RESILIENCE WITHIN C2'S BCMS
+READ MORE
+
+Completely Customisable Theme To Fit Your Brand
+Meridian comes with a fully integrated theming engine allowing you to competely customise the look to fit your brand.
+
+Use the graphic and theme your Meridian BCMS!
+
+A Future Of Innovation
+At C2 we are dedicated to driving innovation across our products and the industry as a whole, that's why we spend more than 30% of our annual revenue on research & development. We believe in always seeing a better, faster, and easier way. Each day we analyse every click and process and strive to continue to enhance our products workflows so that our users can achieve process outcomes with increasing velocity and simplicity. Our development roadmap is a commitment to that cause. We also believe that our customers investment is not just in our world leading product but also in our progressive vision so that's why all enhancements we deliver to our software are at no extra cost.
+
+Need More Information?
+We've added some further info below as well as assets for you to download! Don't forget to contact us if you need anything else :)
+
+Some extra info
+KEY BENEFITS OF OUR BCM SOFTWARE
+READ MORE
+
+Some helpful words from our blog
+HOW TO OBTAIN MANAGEMENT BUY-IN FOR BCM SOFTWARE
+READ MORE
+
+Some helpful words from our blog
+HOW TO WIN ORGANISATIONAL ENGAGEMENT IN BUSINESS CONTINUITY
+READ MORE
+
+CLIENTS & INDUSTRIES POWERED BY C2
+It is our upmost priority to protect the identity, integrity, and confidentiality of our clients. But we also understand the need to provide references to you, our future BCM partner, so request a demo today and we will provide you with up to 5 current client contacts who will share their C2 experience and how our BCM Software increased their business resilience. We provide BCM software and practical solutions to some of the world’s largest…
+
+World's Largest Utility Companies
+The intuitive C2 business continuity software has been easy to implement and provides a simple framework to support our business continuity process.
+
+Anon
+
+Head of Business Continuity
+
+Leading UK Power Provider
+
+World Leading Finance & Investment Organisations
+Easy to use platform, scalable, adaptable, comprehensive and enables alignment and compliance to ISO standard. Deployment as an overarching BCMS is fantastic from
+
+Global
+Business Services
+Organisations
+The design fully supports us in the delivery and maintenance of our BCMS and in the ongoing achievement of ISO22301 certification. When demonstrated during client audits, it is often commented on as an impressive
+
+World's Largest Healthcare Providers
+The software is easy to use and has built in help if you are not clear on what is required in any particular field It provides many different layers of reporting should you require in depth reporting and governance capability. People signing off the plans do not need to have direct system access, cutting down the number of potential user accounts you need to create and administer.
+
+Paul G
+
+BCRM Manager
+
+Leading Healthcare Provider
+
+
+Public Sector, Local Authority Organisations
+Excellent BC management system. The aftersales service is outstanding and a vast improvement on other IT software companies I have worked with. Issues can be resolved quickly by friendly staff who appear truly interested and concerned with any challenge.
+
+Sandy B
+
+Emergency Planning, Risk and Resilience Manager
+
+UK Government Authority
+
+
+STAY UP TO DATE WITH
+THE LATEST RESOURCES
+FROM CONTINUITY2
+Articles from our team and words from our clients
+
+ALLBUSINESS CONTINUITYC2 NEWSCRISIS MANAGEMENTDISASTER RECOVERYIT & CYBER SECURITYMERIDIAN BCMSRESILIENCERISK MANAGEMENT
+...
+How To Make Business Continuity A Part Of Your Organisational Culture
+Embedding business continuity into an organisationРІР‚в„ўs culture ensures you sustain business-as-usual activities and raise awareness about the value of business resilience.
+
+READ MORE ❯
+
+...
+Enhancing EPRR In Healthcare Business Continuity Efforts
+Incidents are inevitable and their impact on the healthcare industry is significant. Organisations must proactively plan ahead to ensure continuity in the delivery of patient care.
+
+READ MORE ❯
+
+...
+Types Of Business Resilience Companies Need To Strive For
+With the rapidly changing business environment on a global scale, building business resilience offers value beyond monetary benefits. But what is business resilience?
+
+READ MORE ❯
+
+...
+Business Continuity Incident Examples
+As part of business continuity planning, businesses must develop a comprehensive BC plan in order to mitigate risks and remain operational in the face of disruption.
+
+READ MORE ❯
+
+...
+How To Build And Maintain Cyber Resilience In Financial Services Sector
+Since financial institutions play a crucial role in the economy, firms must be at least one step ahead in improving cyber resilience.
+
+READ MORE ❯
+
+...
+Business Continuity Planning For Remote Work
+How do you plan business continuity when you have remote staff? LetРІР‚в„ўs take a closer look into the impact of remote working when building a business continuity strategy.
+
+READ MORE ❯
+
+...
+Governance, Risk, And Compliance: How GRC Impacts Business Continuity Planning
+Any business leader knows how vital the GRC Capability Model can be to reliably achieve objectives. But how can you integrate it into your existing business continuity plans?
+
+READ MORE ❯
+
+...
+Communicating In A Crisis: 10 Step Strategy For Public Sector Organisations
+Effective communication is critical in aligning your priorities and efforts with stakeholders, community organisations, and the media. You must have a unified response.
+
+READ MORE ❯
+
+...
+Crisis Communication Best Practices
+How do you plan and manage crisis communications? Since it plays a critical role in your crisis response plan, giving it enough thought and consideration is essential.
+
+READ MORE ❯
+
+...
+The Top 10 Mistakes To Avoid In Your Business Continuity Management Plan
+Let's explore the common mistakes to avoid during business continuity planning to maximise resources and workforce.
+
+READ MORE ❯
+
+...
+What Is Business Continuity Planning?
+Business continuity planning is a critical component of an organisationРІР‚в„ўs risk management strategy because it helps a business continue operating even during unplanned events
+
+READ MORE ❯
+
+...
+Supply Chain Transparency: The Role In Business Continuity Planning
+All companies should prioritise complete transparency. Let's dive into the benefits of maintaining a transparent supply chain and how it impacts your business continuity planning.
+
+READ MORE ❯
+
+...
+Integrated Risk Management
+Risk is part of running a business. The earlier you recognise, identify and manage risk, the better it will be for your business. This is what integrated risk management is about.
+
+READ MORE ❯
+
+...
+Operational Resilience Vs Business Continuity
+Operational resilience refers to an organizationРІР‚в„ўs ability to maintain its core functions during disruptions while business continuity refers to the company's ability to reco
+
+READ MORE ❯
+
+...
+Building An Operational Resilience Framework
+Operational resilience is the ability of an organisation to quickly adapt and recover from disruptive events and minimise the impact on stakeholders.
+
+READ MORE ❯
+
+...
+Managing Risk And Resilience In Hybrid Work Environments
+Hybrid models are not without challenges and risks. It is crucial to focus on managing those risks and building workforce resilience to succeed with this work model.
+
+READ MORE ❯
+
+...
+What Is BCP Testing?
+Testing the business continuity plan is a must to ensure that the strategy you have in place is the best at managing your perceived risks and threats.
+
+READ MORE ❯
+
+...
+What Is Business Continuity?
+Business continuity refers to the planning and preparation required to ensure that your organization can maintain business operations even during times of unexpected crisis.
+
+READ MORE ❯
+
+...
+Crisis Management Team: Function, Roles & Responsibilities
+A guide to helping you build an effective crisis management team who can help you prepare for and overcome and business crises that come your way.
+
+READ MORE ❯
+
+...
+How To Prevent Ransomware Attacks
+Ransomware attacks are on the rise and getting more sophisticated all the time. Here's what you need to know to protect yourself from this particular cyber crime.
+
+READ MORE ❯
+
+...
+The Role Of A Resilience Manager
+It takes a resilient manager to lead on operational resilience. So what's the role of a Resilience Manager and what key characteristics will serve them well?
+
+READ MORE ❯
+
+...
+Business Impact Analysis (BIA)
+Your Business Impact Analysis (BIA) is an essential part of your Business Continuity and Resilience planning. Here's everything you need to know about it...
+
+READ MORE ❯
+
+...
+How To Choose The Best Business Continuity Software
+Investing in BC software can significantly improve your operational resilience & business continuity management. Here are some key factors to consider when making the decision.
+
+READ MORE ❯
+
+...
+8 Skills Business Continuity Managers Need To Succeed
+Business continuity specialists are sometimes under-appreciated. Their knowledge and skills often prove invaluable assets that every business owner would love to have on board.
+
+READ MORE ❯
+
+...
+20 Questions To Ask When Prioritizing Your Policy Development Efforts
+It is a well-known fact that no business can operate properly without a set of distinct policies in place.
+
+READ MORE ❯
+
+...
+How To Prepare Disaster Recovery And Business Continuity Plan
+When planning a business, many people focus on elements that will provide stability, from finding a competitive advantage to setting up reliable supply chains for their products.
+
+READ MORE ❯
+
+...
+7 Common Business Continuity Myths
+When hearing the phrase "business continuity," many people think about unexpected natural disasters or the need to protect client data.
+
+READ MORE ❯
+
+...
+Crisis Communications Training Exercises To Implement
+Crisis management training is crucial for ensuring the organisation's survival РІР‚вЂќ regardless of the industry in which it operates.
+
+READ MORE ❯
+
+...
+Third-Party Risk Management
+If you run a business, it's more than likely that you rely on other people, companies and organisations to operate smoothly.
+
+READ MORE ❯
+
+...
+Why You Need To Keep Your BCM Plans Up To Date
+Determining critical functions, recognising potential threats, and meeting regulatory requirements are only a few examples of factors firms need to consider during this process.
+
+READ MORE ❯
+
+...
+Cyber Threats: How To Protect Consumer Data
+In today's day and age, the threat of a cyber-attack looms over every company.
+
+READ MORE ❯
+
+Placeholder Image
+Can Business Continuity Be A Tool To Minimise The Impact Of Political Unrest?
+In today's day and age, creating a stable business might be more challenging than ever before.
+
+READ MORE ❯
+
+...
+How To Plan For The Cost Of Unplanned Downtime
+According to the report created by the General Electric Company, offshore oil and gas organisations suffer financial losses from unplanned downtime every year.
+
+READ MORE ❯
+
+...
+IT Disaster Recovery Management
+We don't often think of the worst-case scenario, but inevitably it is bound to actually happen to some businesses
+
+READ MORE ❯
+
+...
+Prepare For Planned And Unplanned Downtime
+Many organisations are unsure of the best way to handle planned and unplanned downtime. This article discusses the key elements to consider.
+
+READ MORE ❯
+
+...
+How To Identify Single Points Of Failure And Ensure Continuity
+Single points of failure can bring your whole system to a standstill, or at best - bring it to "limp mode". If you have ever worked on a car, you know what this means.
+
+READ MORE ❯
+
+...
+5 Approaches To Risk-Based Internal Audits
+In this article we discuss the five most common approaches Risk-Based Internal Audits. Read on to see which one would be most suitable for your current business model.
+
+READ MORE ❯
+
+...
+Post-Incident Analysis
+In this article, we're going to take a look at the key elements of Post-Incident Analysis, as well as why it is important to carry them out after major disruptions.
+
+READ MORE ❯
+
+...
+Cascade Effects In Business Continuity Planning
+In this article weРІР‚в„ўre going to look at one key area that is one of the primary reasons business continuity planning and business impact analysis are so difficult: cascade eff
+
+READ MORE ❯
+
+...
+Risk Treatment (With Examples)
+The successful risk management strategy should include risk treatment and the assessment of possible consequences, and a solution to deal with risks in the most strategic way.
+
+READ MORE ❯
+
+...
+Understanding Inherent Vs. Residual Risk In Business Continuity
+In the uncertain and often fierce world of business and commerce, a single mistake can result in bankruptcy or set a company back years.
+
+READ MORE ❯
+
+...
+A Look Back On C2'S 2019
+New product, new staff, new clients, and more. Here's a look back on another amazing year of growth for C2.
+
+READ MORE ❯
+
+...
+Check Out Our Video From BCI World 2019!
+We exhibited at this years BCI World and made a little video recap of what we got up to
+
+READ MORE ❯
+
+...
+See An Easier Way, C2 - At BCI World 2019
+Join us on Stand 41
+
+READ MORE ❯
+
+...
+Health & Safety And Business Continuity
+For a business to survive during a Business Continuity incident, safety must be a top priority during the recovery process.
+
+READ MORE ❯
+
+...
+Crisis Response In The Education Sector
+Here we take a look at what might cause an educational facility to invoke a Business Continuity Plan and some key elements to consider when doing so.
+
+READ MORE ❯
+
+...
+The Rise Of The Cyber Attack
+Just what is causing the increase in cyber attacks we are experiencing, and what can we do to protect our businesses from it?
+
+READ MORE ❯
+
+...
+Business Impact Analysis Vs Risk Assessment: How Do They Work Together?
+A risk assessment helps identify potential threats, while the BIA helps prioritise which processes are most critical to the business. Both are key components of a BCP.
+
+READ MORE ❯
+
+...
+How To Win Organisational Engagement In Business Continuity
+It is imperative that you embed Business Continuity into your company culture to allow for a successful BCMS. Here are some tips and tricks on how to do that
+
+READ MORE ❯
+
+...
+Business Continuity In The Transport & Logistics Sector
+Whether logistics makes up part of your supply chain, or is your entire business, it is essential you consider Business Continuity Planning.
+
+READ MORE ❯
+
+...
+Building A Good Crisis Management Team
+What are the factors that should be considered when building a Crisis Management team?
+
+READ MORE ❯
+
+...
+Should You Be Planning For Brexit?
+Brexit is likely to affect key business activities, your customers, staff, supply chain and contracts.
+
+READ MORE ❯
+
+...
+The Initiation Of BCM: How To Obtain Management Buy-In
+What is the best way to go about obtaining buy-in for a BCMS?
+
+READ MORE ❯
+
+...
+Business Continuity Management In The Finance Sector
+Financial firms have a responsibility to add to the overall resilience of the industry.
+
+READ MORE ❯
+
+...
+3 Stages Of An Organisational Crisis
+In this blog we will look at how CM relates to Business Continuity Management (BCM)
+
+READ MORE ❯
+
+...
+Establishing A BCM Policy
+What are the main components to create a BCM Policy?
+
+READ MORE ❯
+
+...
+What Are The Relationships Between Disaster Recovery, Risk Management And Business Continuity
+Running a business comes with challenges, and managing risks is one of them. Disaster recovery, risk management and business continuity are essential to ensure sustainability.
+
+READ MORE ❯
+
+...
+Business Continuity Management In The Energy Sector
+In this article we will investigate the kind of factors which might affect operations within the energy sector.
+
+READ MORE ❯
+
+...
+Should Social Media Be Included Within A BCMS?
+What part should social media play within a business continuity management system?
+
+READ MORE ❯
+
+...
+The Development Of Business Continuity Management
+How has the BCM discipline evolved since its conception?
+
+READ MORE ❯
+
+...
+What Are The Main Drivers For Business Continuity Management?
+Every business will have their own reasons and drivers for implementing business continuity management.
+
+READ MORE ❯
+
+...
+SBRC Extreme Weather Resilience Workshop
+The SBRC hosted an Extreme Weather Business Resilience Workshop
+
+READ MORE ❯
+
+...
+Cyber Security Risk Management: Preventative And Reactive Controls
+To understand the importance of building a solid cyber risk management strategy, you must first understand the scale of the cyber threat in the information security industry today.
+
+READ MORE ❯
+
+...
+The Importance Of Crisis Communication During A BC Incident
+A crisis communication plan consists of a set of procedures and protocols that a business uses as a guide, so you know what to do during crisis situations.
+
+READ MORE ❯
+
+...
+Why Is Business Continuity Planning Important?
+Business continuity planning is essential to the recovery from any incident, and a clearly defined structure and framework are key to creating a comprehensive BCP.
+
+READ MORE ❯
+
+...
+Business Continuity In The Public Sector
+Find out about how business continuity works within the public sector, and how software can improve the process
+
+READ MORE ❯
+
+...
+How Do I Get Certified To ISO 22301?
+Open up new opportunities for your business by certifying to ISO 22301
+
+READ MORE ❯
+
+...
+Are You Winter Ready?
+Winter is fast approaching and here at C2 we want to help you prepare in the best way possible.
+
+READ MORE ❯
+
+...
+What Is Business Continuity Management?
+Business Continuity Management (BCM) is a key business strategy that proactively prepares organisations and their staff to cope in times of disruption.
+
+READ MORE ❯
+
+...
+Making Business Continuity Easier - Leading With A UX Approach
+Need BCM Software that looks great? Easy to use? Simple? Effective? Our Head of Digital talks us through why C2's BCMS is head and shoulders above our competitors on these factors.
+
+READ MORE ❯
+
+

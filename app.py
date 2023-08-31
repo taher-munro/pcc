@@ -2,7 +2,7 @@ import os
 import openai
 import pandas
 
-from langchain.document_loaders import DirectoryLoader
+from langchain.document_loaders import DirectoryLoader, TextLoader
 from langchain.indexes import VectorstoreIndexCreator
 from flask import Flask, request, render_template
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA

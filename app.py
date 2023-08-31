@@ -22,13 +22,13 @@ def do_calculation(prompt):
     query = prompt
     if PERSIST and os.path.exists("persist"):
         print("Reusing index...\n")
-        vectorstore = Chroma(persist_directory="/var/data/persist", embedding_function=OpenAIEmbeddings())
+        vectorstore = Chroma(persist_directory="./var/data/persist", embedding_function=OpenAIEmbeddings())
         index = VectorStoreIndexWrapper(vectorstore=vectorstore)
         print(index)
     else:
         loader = DirectoryLoader("data/")
         if PERSIST:
-            index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"/var/data/persist"}).from_loaders([loader])
+            index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"./var/data/persist"}).from_loaders([loader])
         else:
             index = VectorstoreIndexCreator().from_loaders([loader])
     chain = ConversationalRetrievalChain.from_llm(

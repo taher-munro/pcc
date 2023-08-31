@@ -5,27 +5,29 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
 from flask import Flask, request, render_template
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import ChatOpenAI, ChatAnthropic
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.llms import OpenAI
 from langchain.vectorstores import Chroma
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+from langchain.schema import HumanMessage
+from langchain.callbacks.base import BaseCallbackHandler
 
 app = Flask(__name__, template_folder='templates')
 
-
-
 chat_history = []
+
 
 def do_calculation(prompt):
     query = prompt
     loader = DirectoryLoader("data/")
     index = VectorstoreIndexCreator().from_loaders([loader])
     chain = ConversationalRetrievalChain.from_llm(
-    llm=ChatOpenAI(model="gpt-3.5-turbo"),
+    llm=ChatOpenAI(model="gpt-3.5-turbo",  temperature=0),
     retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),
     )
     result = chain({"question": query, "chat_history": chat_history})
-    return result['answer']
+    return result['answer'];
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
@@ -34,7 +36,7 @@ def adder_page():
         prompt = request.form["prompt"]
         if prompt is not None :
             result = do_calculation(prompt)
-            return render_template('demo.html',result=result)
+            return result
 
     return render_template('demo.html')
 

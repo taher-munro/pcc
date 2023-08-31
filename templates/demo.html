@@ -223,6 +223,7 @@
         cursor: pointer;
     }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 <section class="msger">
     <header class="msger-header">
@@ -235,11 +236,38 @@
     </header>
 
     <main class="msger-chat">
-        <p style="color:#fff;">Answer: {{result}}</p>
+        <p style="color:#fff;">Answer:
+            <div style="color:#fff" id="response1"></div>
+        </p>
     </main>
 
-    <form class="msger-inputarea" method="post" action=".">
+
+    <form id="form1" class="msger-inputarea">
         <input class="msger-input" name="prompt" placeholder="Enter your message..." require="">
         <button type="submit" class="msger-send-btn">Send</button>
     </form>
 </section>
+
+<script>
+    $(function() {
+
+        $('#form1').on('submit', function(e) {
+
+            e.preventDefault();
+            $('#response1').html("Generating...");
+
+            $.ajax({
+                type: 'POST',
+                url: '/',
+                data: $('#form1').serialize(),
+                success: function(response) {
+                    response1 = response.replace("\n", '<br>')
+                    $('#response1').html(response1);
+
+                }
+            });
+
+        });
+
+    });
+</script>

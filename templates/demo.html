@@ -276,15 +276,13 @@ margin-left: 20px;" />
                     type: 'POST',
                     url: '/',
                     data: $('#form1').serialize(),
+                    error: function(xhr, status, error) {
+                        alert(xhr.responseText);
+                    },
                     success: function(response) {
 
                         $('#response1').html(response);
                         $('#prompt').val('');
-
-                    },
-                    fail: function(xhr, textStatus, errorThrown) {
-
-                        $('#response1').html(xhr.responseText);
 
                     }
                 });

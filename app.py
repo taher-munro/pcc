@@ -12,10 +12,12 @@ from langchain.vectorstores import Chroma
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.schema import HumanMessage
 from langchain.callbacks.base import BaseCallbackHandler
+import requests
 
 app = Flask(__name__, template_folder='templates')
 
 chat_history = []
+
 
 
 def do_calculation(prompt):
@@ -27,10 +29,14 @@ def do_calculation(prompt):
     retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),
     )
     result = chain({"question": query, "chat_history": chat_history})
-    return result['answer'];
+    chat_history.append((query, result['answer']))
+    newr = result['answer'].replace("\n", '<br>')
+    return newr
+
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
+    request.headers.get('grok-skip-browser-warning', '1234')
     errors = ""
     if request.method == "POST":
         prompt = request.form["prompt"]

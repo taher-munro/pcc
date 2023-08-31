@@ -22,7 +22,7 @@ def do_calculation(prompt):
     query = prompt
     if PERSIST and os.path.exists("persist"):
         print("Reusing index...\n")
-        vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
+        vectorstore = Chroma(persist_directory="/var/data", embedding_function=OpenAIEmbeddings())
         index = VectorStoreIndexWrapper(vectorstore=vectorstore)
         print(index)
     else:
@@ -43,7 +43,6 @@ def do_calculation(prompt):
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
-    request.headers.get('grok-skip-browser-warning', '1234')
     errors = ""
     if request.method == "POST":
         prompt = request.form["prompt"]

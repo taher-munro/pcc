@@ -1,5 +1,6 @@
 import os
 import openai
+import pandas
 
 from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
